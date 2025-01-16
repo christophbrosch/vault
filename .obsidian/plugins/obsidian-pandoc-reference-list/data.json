@@ -1,0 +1,17 @@
+{
+  "pathToPandoc": "",
+  "tooltipDelay": 400,
+  "zoteroGroups": [
+    {
+      "id": 1,
+      "name": "My Library",
+      "lastUpdate": 1737016619522
+    }
+  ],
+  "renderCitations": true,
+  "renderCitationsReadingMode": true,
+  "renderLinkCitations": true,
+  "showCitekeyTooltips": false,
+  "enableCiteKeyCompletion": true,
+  "pullFromZotero": true
+}
