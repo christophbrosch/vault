@@ -15,7 +15,7 @@ dateread:
 >**Related**:: {% for relation in relations | selectattr("citekey") %} [[@{{relation.citekey}}]]{% if not loop.last %}, {% endif%} {% endfor %}
 >
 
->[!md]
+>[!metadata]
 {% for type, creators in creators | groupby("creatorType") -%}
 {%- for creator in creators -%}
 > **{{"First" if loop.first}}{{type | capitalize}}**::
