@@ -1,6 +1,6 @@
 ---
 category: literaturenote
-tags: Computer Science - Artificial Intelligence, Computer Science - Computation and Language
+tags: Computer Science - Computation and Language, Computer Science - Artificial Intelligence
 citekey: huangAutoScraperProgressiveUnderstanding2024
 status: unread
 dateread:
@@ -33,7 +33,7 @@ dateread:
 
 > [!LINK] 
 >
->  [Preprint PDF](file:///home/rahon/Zotero/storage/9B7KMYDK/Huang%20et%20al.%20-%202024%20-%20AutoScraper%20A%20Progressive%20Understanding%20Web%20Agent%20for%20Web%20Scraper%20Generation.pdf).
+>  [Preprint PDF](file:///home/cbrosch/Zotero/storage/9B7KMYDK/Huang%20et%20al.%20-%202024%20-%20AutoScraper%20A%20Progressive%20Understanding%20Web%20Agent%20for%20Web%20Scraper%20Generation.pdf).
 
 > [!Abstract]
 >
@@ -48,7 +48,7 @@ dateread:
 
 
 
-### Imported: 2025-01-20 9:53 am
+### Imported: 2025-01-20 10:38 am
 
 
 
@@ -79,7 +79,40 @@ dateread:
 <mark style="background-color: #f19837">Challange</mark>
 > Appropriate evaluation metrics.
 
+<mark style="background-color: #ffd400">Quote</mark>
+> AUTOSCRAPER comprises two main components: progressive generation and synthesis. The progressive generation stage leverages the hierarchical structure of HTML for progressive understanding to address the long HTML document. Subsequently, the synthesis module integrates multiple scrapers generated on different web pages to produce a cohesive, website specific scraper that functions universally within that site. Besides, we propose a new evaluation metric for web scraper generation tasks, called the executability metric. Unlike traditional information extraction metrics that measure single web pages, this metric measures multiple web pages within a website, accurately reflecting the reliability and reusability of the scraper.
+
+<mark style="background-color: #ffd400">Quote</mark>
+![[image-4-x70-y446.png]]
+
+<mark style="background-color: #ffd400">Quote</mark>
+> AUTOSCRAPER comprises two main components: progressive generation and synthesis. The progressive generation stage leverages the hierarchical structure of HTML for progressive understanding to address the long HTML document. Subsequently, the synthesis module integrates multiple scrapers generated on different web pages to produce a cohesive, websitespecific scraper that functions universally within that site. Besides, we propose a new evaluation metric for web scraper generation tasks, called the executability metric. Unlike traditional information extraction metrics that measure single web pages, this metric measures multiple web pages within a website, accurately reflecting the reliability and reusability of the scraper.
+
+<mark style="background-color: #2ea8e5">Section</mark>
+> Comparison with LLM Direct Extraction
+
+<mark style="background-color: #ffd400">Quote</mark>
+> Table 4 shows that in the direct extraction setting, the extraction performance of all LLMs other than GPT-4-Turbo is superior to that of AUTOSCRAPER. However, as the capability of LLMs improves, the gap between the two settings narrows.
+
+<mark style="background-color: #ffd400">Quote</mark>
+> 1. While LLMs like Phi-3-medium can understand webpage content well (i.e., correctly extract the expected content), they still struggle to comprehend webpage structures (i.e., generating XPath using features like DOM tree).
+
+<mark style="background-color: #ffd400">Quote</mark>
+> 2. AUTOSCRAPER, combined with the best current LLMs, already achieves superior extraction performance, and the framework is expected to deliver even better and more stable performance as LLMs continue to improve.
+
+<mark style="background-color: #2ea8e5">Section</mark>
+> Error Analysis
+
+<mark style="background-color: #f19837">Challange</mark>
+> Non-generalizability of webpages
+
+<mark style="background-color: #f19837">Challange</mark>
+> Miss in multi-valued
+
+<mark style="background-color: #ff6666">Conclusion</mark>
+> In this paper, we introduce the scraper generation task and the paradigm that combines LLMs and scrapers to improve the reusability of the current language-agent-based framework. We then propose AUTOSCRAPER , a two-phase framework including progressive generation and synthesis module to generate a more stable and executable action sequence. Our comprehensive experiments demonstrate that AUTOSCRAPER can outperform the state-of-the-art baseline in the scraper generation task.
+
 
 %% end annotations %%
 
-%% Import Date: 2025-01-20T09:54:01.998+01:00 %%
+%% Import Date: 2025-01-20T11:42:38.295+01:00 %%
