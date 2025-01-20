@@ -45,7 +45,7 @@ dateread:
 > [!Abstract]
 > {%- if abstractNote %}
 > {{abstractNote}}
-> {%- endif -%}.
+> {%- endif -%}
 > 
 # Notes
 > {%- if markdownNotes %}
@@ -55,7 +55,17 @@ dateread:
 # Annotations
 {%- macro calloutHeader(type, color) -%}  
 {%- if type == "highlight" -%}  
-<mark style="background-color: {{color}}">Quote</mark>  
+	{%- if color == "#ffd400" -%}
+	<mark style="background-color: #ffd400">Quote</mark>  
+	{%- elif color == "#5fb236" -%}
+	<mark style="background-color: #5fb236">Thesis</mark>  
+	{%- elif color == "#2ea8e5" -%}
+	<mark style="background-color: #2ea8e5">Section</mark>  
+	{%- elif color == "#f19837" -%}
+	<mark style="background-color: #f19837">Challange</mark>  
+	{%- elif color == "#ff6666" -%}
+	<mark style="background-color: #ff6666">Conclusion</mark>  
+	{%- endif -%}
 {%- endif -%}
 
 {%- if type == "text" -%}  

@@ -1,0 +1,1 @@
+Krosnick and Oney [[@krosnickPromisesPitfallsUsing2023]] evaluated gpt-3.5 for direct extraction.

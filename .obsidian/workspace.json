@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ea9ee791b6b4f95a",
+        "id": "942af821bf9fdcc8",
         "type": "tabs",
         "children": [
           {
-            "id": "b3ee6a84bebccf0b",
+            "id": "cb4e427dfdca3d5c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "50 Literature Notes/@krosnickPromisesPitfallsUsing2023.md",
+                "file": "50 Literature Notes/@huangAutoScraperProgressiveUnderstanding2024.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "@krosnickPromisesPitfallsUsing2023"
+              "title": "@huangAutoScraperProgressiveUnderstanding2024"
             }
           }
         ]
@@ -161,17 +161,16 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -184,12 +183,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b3ee6a84bebccf0b",
+  "active": "cb4e427dfdca3d5c",
   "lastOpenFiles": [
+    "80 Meta/82 Templates/ZI_template.md.md",
+    "50 Literature Notes/@huangAutoScraperProgressiveUnderstanding2024.md",
+    "50 Literature Notes/@krosnickPromisesPitfallsUsing2023.md",
     "50 Literature Notes/@broschCreationEvaluationFood2023.md",
     "10 SmartCrawl/11 Literature Overview.md",
-    "80 Meta/82 Templates/ZI_template.md.md",
-    "50 Literature Notes/@krosnickPromisesPitfallsUsing2023.md",
+    "50 Literature Notes/@bastHybridApproachProduct2022.md",
     "10 SmartCrawl",
     "Welcome.md",
     "create a link.md",

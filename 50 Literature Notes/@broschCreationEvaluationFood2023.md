@@ -15,7 +15,7 @@ dateread:
 >**Related**:: 
 >
 
->[!md]
+>[!metadata]
 > **FirstAuthor**:: Brosch, Christoph  
 > **Author**:: Bouwens, Alexander  
 > **Author**:: Bast, Sebastian  
@@ -34,7 +34,7 @@ dateread:
 
 > [!LINK] 
 >
->  [Full Text PDF](file:///home/cbrosch/Zotero/storage/DR2NRUHY/Brosch%20et%20al.%20-%202023%20-%20Creation%20and%20Evaluation%20of%20a%20Food%20Product%20Image%20Da.pdf).
+>  [Full Text PDF](file:///home/rahon/Zotero/storage/DR2NRUHY/Brosch%20et%20al.%20-%202023%20-%20Creation%20and%20Evaluation%20of%20a%20Food%20Product%20Image%20Da.pdf).
 
 > [!Abstract]
 >
@@ -43,22 +43,33 @@ dateread:
 > 
 # Notes
 >
->Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-
-[TLDR] The creation process of an annotated dataset that contains 1,034 images of single food products, taken under studio conditions, annotated with 5 class labels and 30 object detection labels, which can be used for product recognition and classification tasks is described..
+>[TLDR] The creation process of an annotated dataset that contains 1,034 images of single food products, taken under studio conditions, annotated with 5 class labels and 30 object detection labels, which can be used for product recognition and classification tasks is described..
 
 
 # Annotations%% begin annotations %%
 
 
-### Imported: 2025-01-16 9:45 am
+
+### Imported: 2025-01-20 9:24 am
 
 
 
-<mark style="background-color: #ffd400">Quote</mark>
-> The retail sector faces numerous challenges and opportunities due to rapid digitization and technological advancements. The growth of e-commerce has significantly impacted traditional retail, while advances in artificial intelligence (AI) offer retailers the opportunity to automate various processes. Assortment planning, pricing, and promotion planning as well as instore logistics operations are just a few areas where AI can be applied.
+<mark style="background-color: #5fb236">#5fb236</mark>
+> he retail sector faces numerous challenges and opportunities due t
+
+<mark style="background-color: #ffd400">#ffd400</mark><mark style="background-color: #ffd400">Quote</mark>
+> o automate various processes. Assortment planning, pricing, and p
+
+<mark style="background-color: #ff6666">#ff6666</mark>
+> s, retail companies are increasingly exploring automati
+
+<mark style="background-color: #5fb236">#5fb236</mark>
+> recognition. Applications range from identifying missing products that need restocking to ensuring planogram compli
+
+<mark style="background-color: #2ea8e5">#2ea8e5</mark><mark style="background-color: #2ea8e5">Section</mark>
+> 2 RELATED WORK
 
 
 %% end annotations %%
 
-%% Import Date: 2025-01-16T09:45:16.071+01:00 %%
+%% Import Date: 2025-01-20T09:24:24.219+01:00 %%
