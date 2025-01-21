@@ -1,5 +1,31 @@
-[@wang_2022][@] [@zhouSimplifiedDOMTrees2021] look at ways to Transform the HTML source code to improve information extraction. Not necessarily related to LLM-based extraction but maybe worth looking into for deeper understanding of related work. Authored by researchers associated with @google and @meta.
+### Transforming HTML
 
+[@wang_2022][@] [@zhouSimplifiedDOMTrees2021] look at ways to Transform the HTML source code to improve information extraction. Not necessarily related to LLM-based extraction but maybe worth looking into for deeper understanding of related work. Authored by researchers associated with @google and @meta.
+### Code Generation for Universal Information Extraction
+
+[@li_2024] present a framework for extracting Entities, Relations and Events from natural language. For extraction, they require a user defined schema. This schema consists of a set of python classes which inherit from the base classes Entity, Relation and Event. They then task the LLM to generate code, in which instances are instantiated based off the provided schema given the input text. This approach has since been somewhat integrated into the default OpenAI API via the structured output methodology. Which requires a schema defined using pydantic v2 (classes) and returns instances of these classes with built-in validation and re prompting.
+
+>![[image-4-x63-y576.png]]
+
+The authors then went ahead, contributed further by generating a python class based schema from the wikidata rdfs schema.
+
+<mark style="background-color: #e56eee">Contribution</mark>
+> To solve these restrictions, in this paper, we propose a kind of code-style schema representation method, with which various types of knowledge are generally defined as Python classes.
+
+After which they train their KnowCoder for its different phases.
+
+<mark style="background-color: #ffd400">Quote</mark>
+> Thus, as shown in Figure 2, the proposed learning framework contains two phases, i.e., the schema understanding phase and the schema following phase. In the schema understanding phase, KnowCoder undergoes code pretraining to understand each concept in two manners: 1) Go through the class definition code of each concept. 2) Go through the instance codes of each concept. In the schema following phase, KnowCoder is finetuned using instruction tuning code, where multiple task-demanded concepts are given in the schemas, enhancing KnowCoder’s ability to follow schemas and generate instantiating code accordingly.
+
+<mark style="background-color: #ff6666">Conclusion</mark>
+> In this paper, we introduced KnowCoder for UIE leveraging Large Language Models. KnowCoder is based on a code-style schema representation method and an effective two-phase learning framework. The code-style schema representation method uniformly transforms different schemas into Python classes, with which the UIE task can be converted to a code generation process. Based on the schema representation method, we constructed a comprehensive code-style schema library covering over 30, 000 types of knowledge. To let LLMs understand and follow these schemas, we further proposed a two-phase learning framework that first enhances the schema comprehension ability and then boosts its schema following ability. After training on billions of automatically annotated data and refining with human-annotated IE datasets, KnowCoder demonstrates remarkable performance improvements on different IE tasks under the various evalution settings.
+
+Very interesting contribution as it somewhat represents what our vision of smartcrawling would be for natural language. We might assume that the Schema is based off gs1 web voc instead of wikidata, but in general they have very similar input - output assumptions. Text + Schema -> Instances of Schema based off Text. We might have HTML + Schema / Attributes -> Instances of GS1 Web Voc which can be translated to JSON-LD for knowledge graph construction. Their approach for Fine-Tuning could be looked at in more detail.
+
+[[@guo_2025]] in a later publication the (probably) same work group evaluated retrieval-augmented code generation.  They embedded examples consisting of schema + text + instantiation code and, during runtime, retrieve the n closest text examples to be handed over to the LLM for code generation.    
+
+>![[image-4-x63-y572.png]]
+### LLMs for Information Extraction from HTML Pages
 ### [[@gurUnderstandingHTMLLarge2023]]
 
 The authors give a broad overview over the topic and evaluate fine-tuning pre-trained LLMs on HTML data. 
@@ -37,6 +63,6 @@ In their short paper (4 pages), the authors evaluated gpt-3.5 for direct extract
 <mark style="background-color: #ff6666">Conclusion</mark>
 > In this paper, we introduce the scraper generation task and the paradigm that combines LLMs and scrapers to improve the reusability of the current language-agent-based framework. We then propose AUTOSCRAPER , a two-phase framework including progressive generation and synthesis module to generate a more stable and executable action sequence. Our comprehensive experiments demonstrate that AUTOSCRAPER can outperform the state-of-the-art baseline in the scraper generation task.
 
-The authors compare their results with supervised baselines and come to the conclusion that their zero-shot learning approach leveraging LLMs can surpass these baselines.
+The authors compare their results with supervised learning baselines and come to the conclusion that their zero-shot learning approach leveraging LLMs can surpass them.
 
 

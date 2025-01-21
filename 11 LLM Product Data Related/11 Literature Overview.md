@@ -9,3 +9,7 @@ They conclude that this approach works very well compared to baseline pre-traine
 
 <mark style="background-color: #ff6666">Conclusion</mark>
 > This paper investigated the ability of GPT-3.5 and GPT-4 to extract and normalize product attribute values from product offers. We experimented with different prompt templates that use example values and demonstrations for in-context learning. We introduced the WDC-PAVE benchmark, which features manually verified ground truth values for attribute value extraction as well as value normalization. GPT-4 achieves the best F1-score of 91% in the extraction task, surpassing the best PLM baseline by 10%, and shows similar performance for the extraction with normalization task. A compelling avenue for future research is to give LLMs access to scale-specific functions that the model can decide to invoke for normalizing values.
+
+### [@brinkmann_2023]
+
+Their prior work on the topic of extracting Product information from product descriptions. Source code has been published with some training data and comparison to NER-baseline: https://github.com/wbsg-uni-mannheim/pie_chatgpt.

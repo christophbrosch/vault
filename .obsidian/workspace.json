@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "942af821bf9fdcc8",
+        "id": "448420ce76c2c376",
         "type": "tabs",
         "children": [
           {
-            "id": "8e9a0128ff8ead1f",
+            "id": "730f9cb0e55cbd55",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "11 LLM Product Data Related/11 Literature Overview.md",
+                "file": "10 SmartCrawl/11 Literature Overview.md",
                 "mode": "source",
                 "source": false
               },
@@ -24,21 +24,21 @@
         ]
       },
       {
-        "id": "534662e0692be150",
+        "id": "7ff6dd748f4a9efe",
         "type": "tabs",
         "children": [
           {
-            "id": "6b411c4f2e36ff8a",
+            "id": "d2f79b1745225acb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "50 Literature Notes/@brinkmannUsingLLMsExtraction2024.md",
+                "file": "50 Literature Notes/@li_2024.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "@brinkmannUsingLLMsExtraction2024"
+              "title": "@li_2024"
             }
           }
         ]
@@ -190,8 +190,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -204,25 +203,35 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8e9a0128ff8ead1f",
+  "active": "a3c5887499800ad9",
   "lastOpenFiles": [
-    "50 Literature Notes/@brinkmannUsingLLMsExtraction2024.md",
-    "11 LLM Product Data Related/11 Literature Overview.md",
+    "50 Literature Notes/@guo_2025.md",
     "10 SmartCrawl/11 Literature Overview.md",
+    "50 Literature Notes/@li_2024.md",
+    "11 LLM Product Data Related/11 Literature Overview.md",
+    "80 Meta/81 Attachments/li_2024/Pasted image 20250121141724.png",
+    "80 Meta/81 Attachments/li_2024/image-4-x63-y576.png",
+    "80 Meta/81 Attachments/li_2024",
+    "80 Meta/81 Attachments/guo_2025/image-5-x61-y518.png",
+    "80 Meta/81 Attachments/guo_2025/image-4-x63-y572.png",
+    "80 Meta/81 Attachments/guo_2025/image-3-x304-y567.png",
+    "80 Meta/81 Attachments/guo_2025/image-3-x303-y127.png",
+    "80 Meta/81 Attachments/guo_2025/image-3-x69-y128.png",
+    "80 Meta/82 Templates/ZI_template.md.md",
+    "50 Literature Notes/@gurUnderstandingHTMLLarge2023.md",
+    "80 Meta/81 Attachments/guo_2025",
+    "10 SmartCrawl/80 Meta/10 Keywords.md",
+    "50 Literature Notes/@brinkmannUsingLLMsExtraction2024.md",
     "11 LLM Product Data Related",
     "50 Literature Notes/@broschCreationEvaluationFood2023.md",
-    "50 Literature Notes/@gurUnderstandingHTMLLarge2023.md",
     "50 Literature Notes/@krosnickPromisesPitfallsUsing2023.md",
     "50 Literature Notes/@huangAutoScraperProgressiveUnderstanding2024.md",
     "10 SmartCrawl/80 Meta/81 Attachments/Pasted image 20250120132258.png",
-    "10 SmartCrawl/80 Meta/Untitled.md",
     "10 SmartCrawl/80 Meta/81 Attachments",
     "10 SmartCrawl/80 Meta",
     "80 Meta/TODOS.md",
-    "80 Meta/82 Templates/ZI_template.md.md",
     "80 Meta/81 Attachments/huangAutoScraperProgressiveUnderstanding2024/image-4-x70-y446.png",
     "Pasted image 20250120104131.png",
-    "Pasted image 20250120103907.png",
     "80 Meta/81 Attachments/huangAutoScraperProgressiveUnderstanding2024",
     "80 Meta/81 Attachments",
     "50 Literature Notes/@bastHybridApproachProduct2022.md",
@@ -231,7 +240,6 @@
     "create a link.md",
     "broschCreationEvaluationFood2023.md",
     "50 Literature Notes",
-    "80 Meta/82 Templates",
-    "80 Meta"
+    "80 Meta/82 Templates"
   ]
 }

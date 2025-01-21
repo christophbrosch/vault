@@ -63,11 +63,12 @@ dateread:
 	<mark style="background-color: #2ea8e5">Section</mark>  
 	{%- elif color == "#f19837" -%}
 	<mark style="background-color: #f19837">Challange</mark>  
+	{%- elif color == "#e56eee" -%}
+	<mark style="background-color: #e56eee">Contribution</mark>  
 	{%- elif color == "#ff6666" -%}
 	<mark style="background-color: #ff6666">Conclusion</mark>  
 	{%- endif -%}
 {%- endif -%}
-
 {%- if type == "text" -%}  
 Note  
 {%- endif -%}  
