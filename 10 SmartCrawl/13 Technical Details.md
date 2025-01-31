@@ -47,3 +47,13 @@ Python repository which generates pydantic classes based on the provided BRICK_C
 		.replace("9", "NINE")
 	)
 ```
+
+## NOTES FROM LABELING
+
+Müsli / Müsliriegel
+Fertiggerichte von Knorr sind alle in:
+Aktueller Brick: 10006752
+
+Brick Title: Fertiggerichte aus mehreren Bestandteilen - verzehrfertig (ohne Kühlung haltbar)
+
+aber sollten aufgesplittet sein in Grain-Based, Dough-Based etc. Why?
