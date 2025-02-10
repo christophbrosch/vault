@@ -13,15 +13,40 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10 SmartCrawl/13 Technical Details.md",
+                "file": "10 SmartCrawl/15 Classification.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "13 Technical Details"
+              "title": "15 Classification"
+            }
+          },
+          {
+            "id": "f12714b15f29c7b2",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "10 SmartCrawl/80 Meta/82 Images/Pasted image 20250203133044.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20250203133044"
+            }
+          },
+          {
+            "id": "516abfa9ad3b17eb",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "10 SmartCrawl/80 Meta/82 Images/Pasted image 20250203130255.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20250203130255"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -40,7 +65,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -139,10 +165,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Welcome.md"
+                "file": "10 SmartCrawl/80 Meta/82 Images/Pasted image 20250203130255.png",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Welcome"
+              "title": "Outline of Pasted image 20250203130255"
             }
           },
           {
@@ -166,7 +195,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -183,9 +212,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "56f39574bb080e51",
+  "active": "a3c5887499800ad9",
   "lastOpenFiles": [
+    "10 SmartCrawl/80 Meta/82 Images/Pasted image 20250203133044.png",
+    "10 SmartCrawl/80 Meta/82 Images/Pasted image 20250203131208.png",
+    "10 SmartCrawl/80 Meta/82 Images/Pasted image 20250203130255.png",
+    "10 SmartCrawl/80 Meta/82 Images/Pasted image 20250203113837.png",
+    "10 SmartCrawl/80 Meta/82 Images/Pasted image 20250203113730.png",
+    "10 SmartCrawl/15 Classification.md",
+    "10 SmartCrawl/14 Labeling.md",
     "10 SmartCrawl/12 Examples.md",
+    "10 SmartCrawl/80 Meta/82 Images/Pasted image 20250203113644.png",
+    "10 SmartCrawl/80 Meta/82 Images/Pasted image 20250203113549.png",
     "10 SmartCrawl/13 Technical Details.md",
     "10 SmartCrawl/11 Literature Overview.md",
     "50 Literature Notes/@openai_2024.md",
@@ -198,11 +236,6 @@
     "80 Meta/81 Attachments/li_2024/Pasted image 20250121141724.png",
     "80 Meta/81 Attachments/li_2024/image-4-x63-y576.png",
     "80 Meta/81 Attachments/li_2024",
-    "80 Meta/81 Attachments/guo_2025/image-5-x61-y518.png",
-    "80 Meta/81 Attachments/guo_2025/image-4-x63-y572.png",
-    "80 Meta/81 Attachments/guo_2025/image-3-x304-y567.png",
-    "80 Meta/81 Attachments/guo_2025/image-3-x303-y127.png",
-    "80 Meta/81 Attachments/guo_2025/image-3-x69-y128.png",
     "80 Meta/82 Templates/ZI_template.md.md",
     "50 Literature Notes/@gurUnderstandingHTMLLarge2023.md",
     "80 Meta/81 Attachments/guo_2025",
@@ -212,11 +245,9 @@
     "50 Literature Notes/@broschCreationEvaluationFood2023.md",
     "50 Literature Notes/@krosnickPromisesPitfallsUsing2023.md",
     "50 Literature Notes/@huangAutoScraperProgressiveUnderstanding2024.md",
-    "10 SmartCrawl/80 Meta/81 Attachments/Pasted image 20250120132258.png",
     "10 SmartCrawl/80 Meta/81 Attachments",
     "10 SmartCrawl/80 Meta",
     "80 Meta/TODOS.md",
-    "80 Meta/81 Attachments/huangAutoScraperProgressiveUnderstanding2024/image-4-x70-y446.png",
     "80 Meta/81 Attachments/huangAutoScraperProgressiveUnderstanding2024",
     "80 Meta/81 Attachments",
     "50 Literature Notes/@bastHybridApproachProduct2022.md",
