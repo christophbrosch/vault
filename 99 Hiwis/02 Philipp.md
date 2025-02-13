@@ -1,0 +1,3 @@
+## Aufgabe 1
+
+Für das initiale Bewerten der direkten Extraktion aus non-food Produktseiten auf spezialisierten Seiten (MediaMarkt, H&M, OBI etc.) soll eine kleine Testmenge manuell angelegt werden. Diese Testmenge besteht aus ~10 - 20 Produktseiten aus unterschiedlichen Segmenten / Familien. Fokus auf B2C-relevante Warensegmente (Elektronik, Mode, Haushaltsbedarf etc.). Die Menge sollte aus den beiden folgenden Attributen bestehen: PAGE_URL, BRICK_CODE. Die Produktseiten sollten möglichst nicht zu dynamisch sein, bzw. zu viel JavaScript beinhalten.

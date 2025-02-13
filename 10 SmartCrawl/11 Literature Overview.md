@@ -66,3 +66,11 @@ In their short paper (4 pages), the authors evaluated gpt-3.5 for direct extract
 The authors compare their results with supervised learning baselines and come to the conclusion that their zero-shot learning approach leveraging LLMs can surpass them.
 
 
+## LLM4Schema
+
+[@dang_2024] published work regarding the automated extraction of schema.org objects from webpages. They used GPT-3.5 and GPT-4 for their tests. To evaluated their findings, they checked the extracted values for validity, factuality and compliance. Comparing the results with manually extracted objects. These objects are extracted from webpages curated from CommonCrawl by [@brinkmann_2023a]. 
+
+![[image-5-x58-y281.png]]
+
+<mark style="background-color: #ff6666">Conclusion</mark>
+> Thanks to LLM4Schema.org, we can sample web pages from the CommonCrawl and evaluate whether LLMs produce better Schema.org markup than humans. Our findings indicate that LLMs should not be used out-of-thebox for generating Schema.org markups, as they often produce invalid, unfactual, or non-compliant markups. For instance, with our best-performing LLM, GPT-4, over 40% of the generated markup is incorrect. However, after filtering the incorrect markup by LLM4Schema.org agents, filtered markup generated with GPT-4 can surpass human performance, achieving a MeMR score of 0.70 compared to 0.568 for humans. In contrast, GPT-3.5 does not outperform humans even after filtering with a MeMR score of 0.585 compared to 0.687 for humans. Additionally, we observed that GPT-3.5 and GPT-4 can enhance web pages by improving poorly filled types or utilizing less popular types, providing added value in specific contexts

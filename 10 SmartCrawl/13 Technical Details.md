@@ -48,3 +48,11 @@ Python repository which generates pydantic classes based on the provided BRICK_C
 	)
 ```
 
+
+## Modelle
+
+
+| Modell | Token Limit | € / 1k Tokens | Supports Caching | Support Batch |
+| ------ | ----------- | ------------- | ---------------- | ------------- |
+|        |             |               |                  |               |
+|        |             |               |                  |               |

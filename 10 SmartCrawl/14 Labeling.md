@@ -34,6 +34,10 @@ Globus sorted every ready-made canned meal into ***Fertiggerichte aus mehreren B
 or ***Gemüse- /Kartoffelbasierte Produkte /-Gerichte - verzehrbereit (ohne Kühlung haltbar)*** (in a different class)
 
 ![[Pasted image 20250203113730.png]]
+
+Elektrisch???
+![[Pasted image 20250211132347.png]]
+![[Pasted image 20250211132401.png]]
 ### Sian
 To be added
 ### Krieger

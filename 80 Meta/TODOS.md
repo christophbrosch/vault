@@ -1,6 +1,6 @@
 
 ### Zotero Integration
 - [ ] Add Image Attachments to the Literature Note
-- [ ] Add Contribution Highlight
+- [x] Add Contribution Highlight
 
 
