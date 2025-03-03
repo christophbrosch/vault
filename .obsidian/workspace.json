@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10 SmartCrawl/11 Literature Overview.md",
+                "file": "01 Konferenzen & Tagungen/01 E-Commerce Berlin 2025.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "11 Literature Overview"
+              "title": "01 E-Commerce Berlin 2025"
             }
           }
         ]
@@ -189,9 +189,16 @@
   },
   "active": "56f39574bb080e51",
   "lastOpenFiles": [
+    "01 Konferenzen & Tagungen/Media/Screencast+from+2025-03-03+10-44-09.webm",
+    "01 Konferenzen & Tagungen/Media/Screencast+from+2025-03-03+10-44-09.webm",
+    "01 Konferenzen & Tagungen/01 E-Commerce Berlin 2025.md",
+    "01 Konferenzen & Tagungen/Media",
+    "99 Hiwis/03 Ströhlein.md",
+    "01 Konferenzen & Tagungen",
+    "10 SmartCrawl/99 Meetings/13 Februar.md",
+    "10 SmartCrawl/11 Literature Overview.md",
     "50 Literature Notes/@dang_2024.md",
     "50 Literature Notes/@guo_2025.md",
-    "10 SmartCrawl/11 Literature Overview.md",
     "80 Meta/81 Attachments/dang_2024/image-5-x58-y281.png",
     "80 Meta/TODOS.md",
     "80 Meta/82 Templates/ZI_template.md.md",
@@ -208,7 +215,6 @@
     "80 Meta/81 Attachments/dang_2024",
     "10 SmartCrawl/80 Meta/82 Images/Pasted image 20250203133044.png",
     "80 Meta/81 Attachments/dang_",
-    "10 SmartCrawl/99 Meetings/13 Februar.md",
     "10 SmartCrawl/99 Meetings/11 Februar.md",
     "99 Hiwis/02 Philipp.md",
     "10 SmartCrawl/80 Meta/82 Images/Pasted image 20250211132347.png",
@@ -228,11 +234,6 @@
     "50 Literature Notes/@li_2024.md",
     "80 Meta/81 Attachments/li_2024",
     "50 Literature Notes/@gurUnderstandingHTMLLarge2023.md",
-    "80 Meta/81 Attachments/guo_2025",
-    "10 SmartCrawl/80 Meta/10 Keywords.md",
-    "50 Literature Notes/@brinkmannUsingLLMsExtraction2024.md",
-    "11 LLM Product Data Related",
-    "50 Literature Notes/@broschCreationEvaluationFood2023.md",
-    "10 SmartCrawl/80 Meta/81 Attachments"
+    "10 SmartCrawl/80 Meta/10 Keywords.md"
   ]
 }

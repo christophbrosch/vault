@@ -11,3 +11,5 @@
 
 -> Auswertungen die nicht veröffentlicht werden (also nicht im Datensatz):
 	- Abgleich der Fehler mit Globus (Klassenebene)
+
+-> Auswertungen Tokenanzahl pro Shop unverarbeitet (DeepSeek, LLaMa, OpenAI)
