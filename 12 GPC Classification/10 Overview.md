@@ -1,0 +1,55 @@
+The Global Product Classification (GPC) is a system developed by GS1 to standardize the classification of products, facilitating global commerce by enabling consistent and accurate communication across different industries and countries. It assigns a unique code to each product category, ensuring that similar products are grouped together in a logical hierarchy. This helps businesses streamline supply chain processes, improve product data management, and enhance searchability and comparison on e-commerce platforms. By adopting GPC, companies can achieve greater efficiency and interoperability in the global market.
+
+The GPC system consists of multiple levels, namely, from top-to-bottom: Segment, Family, Class and Brick. Each becoming more and more fine-grained. The plot below gives an overview on the amount of unique codes associated with each level. During our research we primarily focus on products belonging to the segment "Food / Beverage" which are shown separately in the plot.
+# Distribution
+
+![[gpc_codes_distribution.png]]
+
+# Attributes & Values
+
+According to [@luoAliCoCoAlibabaEcommerce2020] GPC can be classified as a CPV (Category-Property-Value) taxonomy. Implying that the lowest classification level (Brick) has so-called property nodes associated with them. These property nodes in turn have values (list of all possible values for the property) attached to them.  
+
+<mark style="background-color: #ffd400">Quote</mark>
+> The taxonomy to organize items in Alibaba (actually almost every e-commerce platforms) is generally based on CPV (Category-Property-Value): thousands of categories form a hierarchical structure according to different granularity, and properties such as color and size are defined upon each leaf node.
+
+In the case of GPC, these property nodes are called Attributes and values, well, values. The following is an example of a Attribute/Value pair for the Brick "Beer":
+
+```json
+{
+	"brick_code":10000159,
+	"brick_title":"Beer",
+	"brick_includes":"Includes any products that can be described/observed as a beer made by the fermentation of cereals, usually barley or hops but also maize, wheat, rice and sorghum, by the addition of yeast and water. These products are differentiated by various brewing techniques and include products described as lager, bitter, ale, stout, lambic and specialty beers.Includes beer mixed drinks. ",
+	"brick_excludes":"Specifically excludes non-alcoholic beer. Excludes products such as Soft drinks that may be labelled as beer, such as Ginger Beer/Ale and Root Beer."
+}
+```
+
+Brick 10000159  has 10 Attributes associated with it, one of which is Attribute 20002973:
+
+```json
+{
+	"attribute_code":20002973,
+	"attribute_title":"Taste",
+	"attribute_definition":"Indicates, with reference to the product branding, labelling or packaging the descriptive term that is used by the product manufacturer to identify the taste of the beer.",
+	"attribute_values": [
+	{
+		"value_code":30017085,
+		"value_title":"BITTER",
+		"value_definition":null
+	},{
+		"value_code":30015674,
+		"value_title":"MILD",
+		"value_definition":null
+	},{
+		"value_code":30002515,
+		"value_title":"UNCLASSIFIED",
+		"value_definition":"This term is used to describe those product attributes that are unable to be classified within their specific market; e.g. goat\'s cheese - goat\'s cheeses is often generically labelled and cannot be further classified."
+	},{
+		"value_code":30002518,
+		"value_title":"UNIDENTIFIED",
+		"value_definition":"This term is used to describe those product attributes that are unidentifiable given existing or available product information."
+	}]
+}
+```
+
+Compared to Classification Codes (Segment, Family, Class & Brick), the Attribute-Value Codes don't have to be unique to one leaf node (Brick). In total 
+# Task

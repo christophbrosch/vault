@@ -1,4 +1,4 @@
-## 10. Februar 2025
+mai## 10. Februar 2025
 
 NutriGreen Datensatz:
 https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2024.1342823/full
@@ -23,3 +23,28 @@ Zusätzliche Ideen:
 
 ## 17. Februar 2025
 
+
+
+## März 05
+
+- MyTime Dataset
+- Yolov11 trainieren mit allen Daten
+- Gitlab mit Readme und Preproccess skript anlage
+
+## März 12
+
+- Training mit allen Daten aus dem Datensatz
+- GitLab
+- Recherche Split im Paper
+
+## März 20
+
+- Mytime Klassifizieren und teilen
+- Ai labeling Tool anschauen (makesense.ai)
+- Cross validation anschauen
+
+## März 27
+
+- Beispielbilder Mytime-Datensatz
+- Öko-Siegel, Stiftung-Warentest Recherchieren
+- Beispielbilder Labeln (50 / 50)

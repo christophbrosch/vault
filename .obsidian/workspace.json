@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "56f39574bb080e51",
+            "id": "579d095b80729de7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Konferenzen & Tagungen/01 E-Commerce Berlin 2025.md",
+                "file": "12 GPC Classification/10 Overview.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01 E-Commerce Berlin 2025"
+              "title": "10 Overview"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 278.5
+    "width": 222.5
   },
   "right": {
     "id": "53d13a1536df3e0b",
@@ -140,23 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "10 SmartCrawl/11 Literature Overview.md",
+                "file": "12 GPC Classification/10 Overview.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 11 Literature Overview"
-            }
-          },
-          {
-            "id": "dade0e7f0922392b",
-            "type": "leaf",
-            "state": {
-              "type": "ReferenceListView",
-              "state": {},
-              "icon": "quote-glyph",
-              "title": "References"
+              "title": "Outline of 10 Overview"
             }
           },
           {
@@ -170,11 +160,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 222.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -187,16 +177,32 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "56f39574bb080e51",
+  "active": "579d095b80729de7",
   "lastOpenFiles": [
-    "01 Konferenzen & Tagungen/Media/Screencast+from+2025-03-03+10-44-09.webm",
-    "01 Konferenzen & Tagungen/Media/Screencast+from+2025-03-03+10-44-09.webm",
+    "50 Literature Notes/@luoAliCoCoAlibabaEcommerce2020.md",
+    "12 GPC Classification/10 Overview.md",
     "01 Konferenzen & Tagungen/01 E-Commerce Berlin 2025.md",
-    "01 Konferenzen & Tagungen/Media",
+    "12 GPC Classification/80 Meta/81 Attachments",
+    "12 GPC Classification/80 Meta",
+    "12 GPC Classification/80 Meta/81 Attachments/gpc_codes_distribution.png",
+    "10 SmartCrawl/11 Literature Overview.md",
+    "12 GPC Classification",
     "99 Hiwis/03 Ströhlein.md",
+    "99 Hiwis/02 Philipp.md",
+    "99 Hiwis/01 Hubert.md",
+    "50 Literature Notes/@krosnickPromisesPitfallsUsing2023.md",
+    "10 SmartCrawl/16 Direct extraction.md",
+    "10 SmartCrawl/14 Labeling.md",
+    "10 SmartCrawl/12 Examples.md",
+    "99 Hiwis/80 Meta/81 Attachements/Pasted image 20250305101555.png",
+    "99 Hiwis/80 Meta/81 Attachements",
+    "99 Hiwis/80 Meta",
+    "10 SmartCrawl/80 Meta/81 Attachments/Screenshot from 2025-03-04 16-01-25.png",
+    "01 Konferenzen & Tagungen/Media/Screencast+from+2025-03-03+10-44-09.webm",
+    "01 Konferenzen & Tagungen/Media/Screencast+from+2025-03-03+10-44-09.webm",
+    "01 Konferenzen & Tagungen/Media",
     "01 Konferenzen & Tagungen",
     "10 SmartCrawl/99 Meetings/13 Februar.md",
-    "10 SmartCrawl/11 Literature Overview.md",
     "50 Literature Notes/@dang_2024.md",
     "50 Literature Notes/@guo_2025.md",
     "80 Meta/81 Attachments/dang_2024/image-5-x58-y281.png",
@@ -204,9 +210,7 @@
     "80 Meta/82 Templates/ZI_template.md.md",
     "50 Literature Notes/@brinkmann_2023a.md",
     "10 SmartCrawl/10 Overview.md",
-    "10 SmartCrawl/12 Examples.md",
     "10 SmartCrawl/13 Technical Details.md",
-    "10 SmartCrawl/14 Labeling.md",
     "10 SmartCrawl/15 Classification.md",
     "11 LLM Product Data Related/11 Literature Overview.md",
     "50 Literature Notes/@huangAutoScraperProgressiveUnderstanding2024.md",
@@ -214,26 +218,12 @@
     "80 Meta/81 Attachments/dang_/image-5-x58-y281.png",
     "80 Meta/81 Attachments/dang_2024",
     "10 SmartCrawl/80 Meta/82 Images/Pasted image 20250203133044.png",
-    "80 Meta/81 Attachments/dang_",
     "10 SmartCrawl/99 Meetings/11 Februar.md",
-    "99 Hiwis/02 Philipp.md",
     "10 SmartCrawl/80 Meta/82 Images/Pasted image 20250211132347.png",
-    "10 SmartCrawl/Untitled.md",
     "10 SmartCrawl/80 Meta/82 Images/Pasted image 20250211132401.png",
-    "99 Hiwis/01 Hubert.md",
-    "10 SmartCrawl/99 Meetings/{\"Attachments\":[{\"__type\":\"FileAttachment:#Exchange\",\".txt",
-    "10 SmartCrawl/99 Meetings",
     "10 SmartCrawl/80 Meta/82 Images/Pasted image 20250203130255.png",
-    "99 Hiwis",
     "10 SmartCrawl/80 Meta/82 Images/Pasted image 20250203131208.png",
-    "10 SmartCrawl/80 Meta/82 Images/Pasted image 20250203113837.png",
-    "10 SmartCrawl/80 Meta/82 Images/Pasted image 20250203113730.png",
-    "10 SmartCrawl/80 Meta/82 Images/Pasted image 20250203113644.png",
     "50 Literature Notes/@openai_2024.md",
-    "10 SmartCrawl/80 Meta/82 Images",
-    "50 Literature Notes/@li_2024.md",
-    "80 Meta/81 Attachments/li_2024",
-    "50 Literature Notes/@gurUnderstandingHTMLLarge2023.md",
-    "10 SmartCrawl/80 Meta/10 Keywords.md"
+    "50 Literature Notes/@li_2024.md"
   ]
 }
