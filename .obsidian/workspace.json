@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "12 GPC Classification/11 Datasets.md",
+                "file": "12 GPC Classification/12 Fachprojekt.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "11 Datasets"
+              "title": "12 Fachprojekt"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "12 GPC Classification/11 Datasets.md",
+                "file": "12 GPC Classification/12 Fachprojekt.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 11 Datasets"
+              "title": "Outline of 12 Fachprojekt"
             }
           },
           {
@@ -179,28 +179,29 @@
   },
   "active": "579d095b80729de7",
   "lastOpenFiles": [
+    "12 GPC Classification/80 Meta/81 Attachments/Pasted image 20250403151322.png",
+    "12 GPC Classification/80 Meta/81 Attachments/Zeichnung 1(3).png",
+    "12 GPC Classification/80 Meta/81 Attachments/Zeichnung 1(5).png",
+    "12 GPC Classification/80 Meta/image001.png",
+    "12 GPC Classification/80 Meta/81 Attachments/Zeichnung 1(6).png",
+    "12 GPC Classification/10 Overview.md",
+    "12 GPC Classification/12 Fachprojekt.md",
+    "12 GPC Classification/80 Meta/81 Attachments/Zeichnung 1(4).png",
+    "12 GPC Classification/11 Datasets.md",
+    "12 GPC Classification/Untitled",
     "12 GPC Classification/80 Meta/81 Attachments/globus_brick_vs_evaluated.png.png",
     "12 GPC Classification/80 Meta/81 Attachments/globus_brick_vs_evaluated_approved.png",
-    "12 GPC Classification/11 Datasets.md",
     "50 Literature Notes/@bast_2023.md",
     "80 Meta/81 Attachments/bast_2022/image-5-x126-y505.png",
     "50 Literature Notes/@bast_2022.md",
     "80 Meta/81 Attachments/bast_2022",
     "50 Literature Notes/@bastHybridApproachProduct2022b.md",
-    "12 GPC Classification/10 Overview.md",
-    "12 GPC Classification/80 Meta/81 Attachments/Pasted image 20250403151322.png",
     "80 Meta/81 Attachments/bast_2023/image-18-x131-y216.png",
-    "80 Meta/81 Attachments/huangAutoScraperProgressiveUnderstanding2024/image-4-x70-y446.png",
-    "80 Meta/81 Attachments/bast_2023/image-9-x131-y422.png",
-    "80 Meta/81 Attachments/bast_2023/image-8-x130-y326.png",
-    "80 Meta/81 Attachments/bast_2023/image-7-x131-y503.png",
-    "80 Meta/81 Attachments/bast_2023/image-5-x127-y124.png",
     "99 Hiwis/01 Hubert.md",
     "80 Meta/81 Attachments/bast_2023",
     "99 Hiwis/03 Ströhlein.md",
     "99 Hiwis/02 Philipp.md",
     "80 Meta/TODOS.md",
-    "99 Hiwis/80 Meta/81 Attachements/Pasted image 20250305101555.png",
     "11 LLM Product Data Related/11 Literature Overview.md",
     "10 SmartCrawl/14 Labeling.md",
     "50 Literature Notes/@luoAliCoCoAlibabaEcommerce2020.md",
@@ -216,14 +217,12 @@
     "99 Hiwis/80 Meta",
     "01 Konferenzen & Tagungen/Media/Screencast+from+2025-03-03+10-44-09.webm",
     "01 Konferenzen & Tagungen/Media/Screencast+from+2025-03-03+10-44-09.webm",
-    "01 Konferenzen & Tagungen/Media",
     "10 SmartCrawl/99 Meetings/13 Februar.md",
     "50 Literature Notes/@dang_2024.md",
     "50 Literature Notes/@guo_2025.md",
     "80 Meta/82 Templates/ZI_template.md.md",
     "50 Literature Notes/@brinkmann_2023a.md",
     "10 SmartCrawl/10 Overview.md",
-    "10 SmartCrawl/13 Technical Details.md",
-    "10 SmartCrawl/15 Classification.md"
+    "10 SmartCrawl/13 Technical Details.md"
   ]
 }
