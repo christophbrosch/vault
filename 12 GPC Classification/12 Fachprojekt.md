@@ -1,71 +1,80 @@
-# Informationsbedarfanalyse
+# Information Needs Analysis
 
-## Ziel
+## Objective
 
-In dem Fachprojekt welches im Sommersemester 2025 zusammen mit Robin Wert und Raffael Schäfer durchgeführt wird soll eine Weboberfläche entwickelt werden, welche es ermöglicht Produkte, dargestellt mit unterschiedlichen Attributen (Produtname, Bild, Beschreibung, URL), auf Brick Level zu klassifizieren. Die Aufgabe der beiden Studenten beschränkt sich hierbei auf die Ausarbeitung der Nutzeroberfläche, aufbauend auf den Technologien React und NextJS.
+The aim of the project, to be conducted in the summer semester of 2025 alongside Robin Werth and Raffael Schäfer, is to develop a web interface that allows products to be classified at the Brick Level. These products will be represented with various attributes such as product name, image, description, and URL. The students' task will focus on developing the user interface using React and NextJS.
 
-## Eingabe
+## Input
 
-Anzudenken sind Eingabefelder wie z. B. Produktname, Produktbeschreibung und Produktbild.
+Consideration should be given to input fields such as product name, product description, and product image. The students suggested multiple different solutions, such as a "data bubble" where the user can insert as little or as much data as they want.
 
-Produktdaten liegen für Handelsunternehmen in unterschiedlichen Konstellationen vor. Die sinnigste Unterscheidung ist hier vermutlich auf Datenquelleebene zu treffen.
+Product data exists in various configurations for retail companies. The most logical distinction is likely at the data source level:
 
-- Product Information Management System (PIM-System)
-	- Beinhaltet die beschreibenden Attribute eines Produkts, darunter Produktname, Beschreibung, Kategorien, Bilder etc. Einzelhandelsunternehmen definieren ihr Datenmodell i. d. R. selbst. Ein Mitarbeiter eines solchen Unternehmens würde vermutlich Elemente eines Produktfeeds (z. B. als XML-Datei) zur Klassifikation schicken. Entspricht in etwa der Datenlieferung von Globus. Mehr Informationen: https://de.wikipedia.org/wiki/Produktfeed. 
-- Webshop
-	- Zum testen des Systems möchte eine Nutzer:in vielleicht eine Produktseite klassifizieren. Hierbei ist zu unterscheiden ob die Nutzer:in die Informationen selbst aus der Weboberfläche extrahieren und in entsprechende Eingabefelder überführt, oder ob die Produktseite von uns "geparsed" und Eingabefelder entsprechend vorausgefüllt werden. Hierbei kann das einheitliche JSON-LD Elemente, welches auf den meisten Produktseiten zu finden ist, verwendet werden. Nachfolgend ein Beispiel eines solchen JSON-LD Produkts (sehr gut gepflegt vom Webshop Mytime.de), abgebildet mit dem Schema.org Vokabular.
+**Product Information Management System (PIM System)**
+- Contains descriptive attributes of a product, including product name, description, categories, images, etc. Retail companies usually define their own data models. An employee from such a company would likely send elements of a product feed (e.g., as an XML file) for classification. This aligns with data delivery from companies like Globus. More information: [Product Feed](https://de.wikipedia.org/wiki/Produktfeed).
+
+**Webshop**
+- To test the system, a user might want to classify a product page. It’s important to differentiate whether the user extracts the information manually from the web interface and inputs it into fields, or if the product page is "parsed" by us and input fields are pre-filled accordingly. The standardized JSON-LD element, commonly found on product pages, can be used here. Below is an example of such JSON-LD product data (well-maintained by the webshop Mytime.de), using the Schema.org vocabulary.
 
 ```json
 {
-    "@context": "https:\/\/schema.org",
-    "@type": "Product",
-    "name": "Ferrero Milch-Schnitte",
-    "description": "<p>F&uuml;r die kleine Pause im Alltag. Um gut durch den Tag zu kommen, sollte man sich ab und zu eine kleine Pause g&ouml;nnen. Mit der Familienpackung haben Sie immer einen frischen Snack im K&uuml;hlschrank.<\/p>\n<p>Ohne k&uuml;nstliche Farbstoffe, ohne Zusatz von Alkohol und Konservierungsstoffen.<\/p>",
-    "sku": "4503060121",
-    "gtin": "4008400192024",
-    "manufacturer": {
-        "@type": "Organization",
-        "name": "Ferrero"
-    },
-    "brand": {
-        "@type": "Brand",
-        "name": "Ferrero"
-    },
-    "image": "https:\/\/d2jdyzt6tc17s.cloudfront.net\/products\/images\/4503060121_4008400191423_01.jpg.jpg",
-    "offers": {
-        "@type": "Offer",
-        "availability": "https:\/\/schema.org\/InStock",
-        "itemCondition": "https:\/\/schema.org\/NewCondition",
-        "priceSpecification": {
-            "@type": "UnitPriceSpecification",
-            "priceType": "https:\/\/schema.org\/ListPrice",
-            "price": "2.99",
-            "priceCurrency": "EUR",
-            "valueAddedTaxIncluded": true
-        }
-    },
-    "hasMerchantReturnPolicy": {
-        "@type": "MerchantReturnPolicy",
-        "applicableCountry": "DE",
-        "returnPolicyCategory": "https:\/\/schema.org\/MerchantReturnFiniteReturnWindow",
-        "merchantReturnDays": 14
-    }
+   "@context":"https://schema.org",
+   "@type":"Product",
+   "name":"Ferrero Milch-Schnitte",
+   "description":"<p>For a small break during the day. To get through the day well, you should occasionally take a small break. With the family pack, you always have a fresh snack in the fridge.</p>\n<p>No artificial colors, no added alcohol or preservatives.</p>",
+   "sku":"4503060121",
+   "gtin":"4008400192024",
+   "manufacturer":{
+      "@type":"Organization",
+      "name":"Ferrero"
+   },
+   "brand":{
+      "@type":"Brand",
+      "name":"Ferrero"
+   },
+   "image":"https://d2jdyzt6tc17s.cloudfront.net/products/images/4503060121_4008400191423_01.jpg.jpg",
+   "offers":{
+      "@type":"Offer",
+      "availability":"https://schema.org/InStock",
+      "itemCondition":"https://schema.org/NewCondition",
+      "priceSpecification":{
+         "@type":"UnitPriceSpecification",
+         "priceType":"https://schema.org/ListPrice",
+         "price":"2.99",
+         "priceCurrency":"EUR",
+         "valueAddedTaxIncluded":true
+      }
+   },
+   "hasMerchantReturnPolicy":{
+      "@type":"MerchantReturnPolicy",
+      "applicableCountry":"DE",
+      "returnPolicyCategory":"https://schema.org/MerchantReturnFiniteReturnWindow",
+      "merchantReturnDays":14
+   }
 }
 ```
 
-## Ausgabe
+## Output
 
-- Brick Klassifikation (Top 1, Top 3)
-- Ähnliche Produkte im Produktgraphen
+- Brick Classification (Top 1, Top 3)
 
-## Fragestellungen (Christoph)
+- Similar products in the product graph
 
-- Die Anwendung soll in NextJS implementiert werden und auf unterschiedliche Backend ML Funktionalitäten zugreifen. Diese sind im besten Fall nicht besonders kompliziert in der Ausführung. 
-- NextJS verfügt über ein sehr weitreichendes Öko-System, interessant vorallem in Hinblick auf das Thema Authentifizierung (vgl. einfach umzusetzen mit OAuth-Services). Können wir die Authentifizierung in einklang mit einigen Python-Endpunkten (z. B. implementiert mit Flask) bringen? Lösung angelehnt an: https://vercel.com/templates/next.js/nextjs-flask-starter.
-- Alles sollte in ein Repository 
-- Möglichst KISS
+## Questions (Christoph)
 ![[Zeichnung 1(6).png]]
-- Kann eine Architektur wie die abgebildet erreicht werden, ist diese überhaupt sinnvoll?
+- The application should be implemented in NextJS and access various backend ML functionalities, ideally with simplicity.
 
-## Grafik (Krieger)
+- NextJS offers an extensive ecosystem, which is particularly interesting in terms of authentication (e.g., easy implementation with OAuth services). Can we integrate authentication with Python endpoints (e.g., implemented with Flask)? Suggested approach: [Next.js Flask Starter](https://vercel.com/templates/next.js/nextjs-flask-starter). Raffi suggested JWTs.
+
+- Everything should be organized in one repository. Because bullet point below.
+
+- Aim for KISS (Keep It Simple, Stupid).
+
+- Is the illustrated architecture achievable and sensible?
+
+## Graphic (Krieger)
 ![[image001.png]]
+## Visualization
+
+The hierarchy could potentially be displayed as a dendrogram:
+https://d3-graph-gallery.com/graph/dendrogram_basic.html

@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "d1c0f27f812bee6b",
+        "id": "242bf9ae5319d2de",
         "type": "tabs",
         "children": [
           {
-            "id": "579d095b80729de7",
+            "id": "0f11af51b812e608",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "12 GPC Classification/12 Fachprojekt.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "12 Fachprojekt"
+              "title": "New tab"
             }
           }
         ]
@@ -128,25 +124,12 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
-            }
-          },
-          {
-            "id": "44a14725989d7ac6",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "12 GPC Classification/12 Fachprojekt.md",
-                "followCursor": false,
+                "useHierarchy": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
-              "icon": "lucide-list",
-              "title": "Outline of 12 Fachprojekt"
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -160,7 +143,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -177,26 +160,28 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "579d095b80729de7",
+  "active": "278a7b8127b874a8",
   "lastOpenFiles": [
+    "12 GPC Classification/80 Meta/81 Attachments/Screencast from 2025-04-15 15-45-08.webm",
+    "12 GPC Classification/11 Datasets.md",
+    "12 GPC Classification/12 Fachprojekt.md",
+    "12 GPC Classification/13 MCP.md",
+    "Pasted image 20250415155519.png",
+    "12 GPC Classification/80 Meta/81 Attachments/Screenshot from 2025-04-15 15-40-25.png",
+    "12 GPC Classification/80 Meta/81 Attachments/Screenshot from 2025-04-15 10-32-47.png",
     "12 GPC Classification/80 Meta/81 Attachments/Pasted image 20250403151322.png",
     "12 GPC Classification/80 Meta/81 Attachments/Zeichnung 1(3).png",
     "12 GPC Classification/80 Meta/81 Attachments/Zeichnung 1(5).png",
-    "12 GPC Classification/80 Meta/image001.png",
+    "12 GPC Classification/80 Meta/81 Attachments/image001.png",
     "12 GPC Classification/80 Meta/81 Attachments/Zeichnung 1(6).png",
     "12 GPC Classification/10 Overview.md",
-    "12 GPC Classification/12 Fachprojekt.md",
     "12 GPC Classification/80 Meta/81 Attachments/Zeichnung 1(4).png",
-    "12 GPC Classification/11 Datasets.md",
     "12 GPC Classification/Untitled",
     "12 GPC Classification/80 Meta/81 Attachments/globus_brick_vs_evaluated.png.png",
-    "12 GPC Classification/80 Meta/81 Attachments/globus_brick_vs_evaluated_approved.png",
     "50 Literature Notes/@bast_2023.md",
-    "80 Meta/81 Attachments/bast_2022/image-5-x126-y505.png",
     "50 Literature Notes/@bast_2022.md",
     "80 Meta/81 Attachments/bast_2022",
     "50 Literature Notes/@bastHybridApproachProduct2022b.md",
-    "80 Meta/81 Attachments/bast_2023/image-18-x131-y216.png",
     "99 Hiwis/01 Hubert.md",
     "80 Meta/81 Attachments/bast_2023",
     "99 Hiwis/03 Ströhlein.md",
@@ -222,7 +207,6 @@
     "50 Literature Notes/@guo_2025.md",
     "80 Meta/82 Templates/ZI_template.md.md",
     "50 Literature Notes/@brinkmann_2023a.md",
-    "10 SmartCrawl/10 Overview.md",
-    "10 SmartCrawl/13 Technical Details.md"
+    "10 SmartCrawl/10 Overview.md"
   ]
 }
